@@ -30,7 +30,7 @@ function Signup() {
     <div className="signup-container">
       <Header />
       <div className="signup-content">
-        <h1>Signup</h1>
+        <h1>Create Account</h1>
         <input
           className="form-control"
           type="text"
@@ -59,7 +59,7 @@ function Signup() {
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
-        <button className="btn btn-primary" onClick={handleApi}>Signup</button>
+        <button className="btn btn-primary" onClick={handleApi}>Sign Up</button>
         <p>Already have an account? <Link to="/login">Login</Link></p>
       </div>
     </div>
